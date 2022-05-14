@@ -30,4 +30,4 @@
 ### 2주차
 ### 3주차
 ### 4주차
-### [5주차](https://github.com/Groot-94/Burnning-Saturday-Study.wiki.git)
+### [5주차](https://github.com/Groot-94/Burnning-Saturday-Study/wiki/2022-05-14)
