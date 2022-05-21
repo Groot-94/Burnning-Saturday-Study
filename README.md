@@ -31,3 +31,4 @@
 ### [3주차](https://github.com/Groot-94/Burnning-Saturday-Study/wiki/2022-04-30)
 ### [4주차](https://github.com/Groot-94/Burnning-Saturday-Study/wiki/2022-05-07)
 ### [5주차](https://github.com/Groot-94/Burnning-Saturday-Study/wiki/2022-05-14)
+### [6주차](https://github.com/Groot-94/Burnning-Saturday-Study/wiki/2022-05-21)
