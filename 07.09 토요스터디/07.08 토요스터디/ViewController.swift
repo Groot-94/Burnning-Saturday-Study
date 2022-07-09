@@ -8,24 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+        
     @IBOutlet weak var greenView: GreenView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let taps = UITapGestureRecognizer(target: self, action: #selector(addGesture))
-        self.greenView.backgroundColor = .green
-
+        self.greenView.backgroundColor = .systemGreen
+        
         self.greenView.addGestureRecognizer(taps)
     }
-
+    
     @objc func addGesture() {
-
-        if self.greenView.backgroundColor == .green {
-            self.greenView.backgroundColor = .black
-        } else if self.greenView.backgroundColor == .black {
-            self.greenView.backgroundColor = .green
+        if greenView.backgroundColor?.resolvedColor(with: greenView.traitCollection) == UIColor.systemGreen.resolvedColor(with: greenView.traitCollection) {
+            greenView.backgroundColor = .systemBlue
         } else {
-            self.greenView.backgroundColor = .red
+            if greenView.backgroundColor?.resolvedColor(with: greenView.traitCollection) == UIColor.systemBlue.resolvedColor(with: greenView.traitCollection) {
+                greenView.backgroundColor = .systemGreen
+            }
         }
     }
 }
