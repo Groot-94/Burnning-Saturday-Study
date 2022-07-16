@@ -11,7 +11,7 @@ class CustomLayout: UICollectionViewLayout {
     var attributesArray = [UICollectionViewLayoutAttributes]()
     var numberOfColumns: Int = 4
     var contentWidth : CGFloat {
-        self.collectionView?.bounds.width ?? 0
+        self.collectionView?.frame.width ?? 0
     }
     var width : CGFloat {
         (self.collectionView?.frame.width ?? 0) / 4
